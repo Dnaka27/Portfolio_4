@@ -1,0 +1,218 @@
+/* Configurações Globais */
+body {
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* Listas */
+ul, ol {
+  list-style-type: none;
+}
+
+/* Linhas */
+.row {
+  --bs-gutter-x: 0;
+}
+
+/* Efeitos de Hover */
+.navbar-brand:hover,
+.nav-link:hover,
+.carousel:hover,
+.skillIcon:hover,
+.contactIcon:hover{
+  animation: boxShadowLight 0.3s ease forwards;
+}
+
+.styleTech:hover,
+.carouselProjectImage:hover {
+  animation: boxShadowDark 0.3s ease forwards;
+}
+
+/* Layout Principal */
+main {
+  background: radial-gradient(circle, #1b2355, #242424);
+}
+
+.sectionMain {
+  padding: 2% 6%;
+}
+
+/* Títulos */
+.titleSection {
+  display: inline;
+  text-align: left;
+  font-size: 3rem;
+  margin: 4% 2%;
+  padding: 1%;
+  color: white;
+}
+
+/* Animações */
+@keyframes boxShadowLight {
+  from {
+    box-shadow: none;
+  }
+  to {
+    box-shadow: 5px 5px 10px #b6b6b6;
+  }
+}
+
+@keyframes boxShadowDark {
+  from {
+    box-shadow: none;
+  }
+  to {
+    box-shadow: 5px 5px 10px #3b3b3b;
+  }
+}
+
+@media (max-width: 992px) {
+  .theme-icons{
+    font-size: small;
+  }
+	/* .navbar-brand {
+		font-size: 1.25rem;
+	} */
+	.navbar-toggler {
+		padding: 1%;
+	}
+	.navbar {
+		font-size: 1rem;
+		padding: 4%;
+	}
+	.navbar-collapse {
+		text-align: center;
+	}
+	.navbar-nav {
+		display: inline-block;
+	}
+	.navbar-nav .nav-item {
+		display: inline-block;
+		padding: 2% 0;
+		margin-left: 0.5rem;
+	}
+	h1 {
+		padding: 8%;
+		font-size: 1.75rem;
+	}
+	.headerSub {
+		background-color: #ffffffa9;
+		height: 60%;
+		margin-top: 10%;
+	}
+	.devFunctionCol {
+		margin: 6% 2%;
+	}
+	.devFunction {
+		font-size: 2.75rem;
+		margin: 0;
+	}
+	.aboutText,
+	.textDescription {
+		font-size: 1rem;
+	}
+	.sectionMain {
+		padding: 4%;
+	}
+	.titleSection {
+		display: flex;
+		font-size: 1.75rem;
+	}
+	.carousel {
+		border-radius: 0.5rem;
+		margin-top: 5%;
+		padding: 2% 0;
+	}
+	.carouselProjects {
+		height: 70vh;
+		margin: 0;
+		flex-direction: column;
+		padding: 2% 7.5%;
+	}
+	.carouselImageCol,
+	.carouselDescriptionCol {
+		margin: 2% 0;
+	}
+	.titleProjectDescription,
+	.textDescription {
+		text-align: justify;
+		margin: 1% 0;
+		padding: 2%;
+	}
+	#skills .row {
+		display: flex;
+		flex-direction: column;
+	}
+	.softSkills,
+	.hardSkills {
+		margin: 4% 0;
+	}
+	.skillBlock h4 {
+		margin-bottom: 5%;
+	}
+	.EBOptions h3 {
+		font-size: 1.2rem;
+	}
+	.EBCertifiesList {
+		padding: 0;
+	}
+	.EBCols {
+		height: 50vh;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		flex-basis: 100%;
+	}
+	.EBColActive {
+		max-height: 100%;
+		animation: showActive 0.9s forwards;
+	}
+	.EBColOff {
+		animation: showOff 0.4s forwards;
+	}
+	.sectionFooter {
+		padding: 0 6% 2% 6%;
+		display: flex;
+		align-items: center;
+	}
+	.contactIcons {
+		display: inline;
+		width: 80%;
+	}
+	.contactIcon {
+		color: #517bd6;
+		display: inline-block;
+		margin-left: 8%;
+		font-size: 1.25rem;
+		padding: 3%;
+		border-radius: 0.5rem;
+	}
+	.contactIcon:hover {
+		color: #0084ff;
+	}
+	footer .titleSection {
+		margin-right: 10%;
+	}
+}
+
+@media (min-width: 1500px) {
+	body {
+		font-size: 1.5rem;
+	}
+	h1 {
+		font-size: 5rem;
+	}
+	.devFunctionCol {
+		border: 0.25rem outset rgb(46, 101, 211);
+	}
+	.devFunction {
+		font-size: 5rem;
+		font-weight: bold;
+	}
+	.titleSection {
+		font-size: 3rem;
+	}
+	.skillTitle{
+		font-size: 2rem;
+	}
+}
