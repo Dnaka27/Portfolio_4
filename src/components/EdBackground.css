@@ -20,7 +20,8 @@
 	border-bottom: 4px #6200ff solid;
 }
 .EBCertifies h3:hover,
-.EBAcademic h3:hover {
+.EBAcademic h3:hover,
+.EBColOff:hover {
 	cursor: pointer;
 }
 .EBCols {
@@ -33,8 +34,8 @@
 	animation: EBOptionOff 0.5s ease forwards;
 }
 .EBOff h3:hover {
-	border-top-left-radius: 1rem;
-	border-top-right-radius: 1rem;
+	/* border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem; */
 	background-color: #273f80;
 }
 .EBColActive {

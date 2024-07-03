@@ -53,13 +53,13 @@ const Projects = () => {
                 <p class='textDescription'>
                   Este é um projeto para organização, uma lista de tarefas
                   simples para o dia a dia, mas que conta com filtros e uma
-                  barra de pesquisa,
+                  barra de pesquisa, {' '}
                   <a
                     class='projectName'
                     href='https://github.com/Dnaka27/ToDoList_basic/'
                     target=' _blank'
                   >
-                    To do list
+                    TO DO LIST
                   </a>
                   . Nesse projeto utilizei de{' '}
                   <span class='styleTech styleJS'>JAVASCRIPT</span> junto de{' '}
@@ -84,7 +84,7 @@ const Projects = () => {
                 <h3 class='titleProjectDescription'>Coin Viewer</h3>
                 <p class='textDescription'>
                   Este é um projeto próprio que ainda está em andamento, uma
-                  aplicação de cotações de moedas, o
+                  aplicação de cotações de moedas, o {' '}
                   <a
                     class='projectName'
                     href='https://github.com/Dnaka27/Coin_Viewer'
@@ -95,10 +95,9 @@ const Projects = () => {
                   . Ele é feito essencialmente com{' '}
                   <span class='styleTech stylePY'>PYTHON</span>,{' '}
                   <span class='styleTool'>STREAMLIT</span> para a interface,{' '}
-                  <span class='styleTool'>PANDAS</span> e
+                  <span class='styleTool'>PANDAS</span> e {''}
                   <span class='styleTool'>NUMPY</span> para os dados,{' '}
-                  <span class='styleTool'>REQUESTS</span> para a{' '}
-                  <span class='styleTool'>API</span> e
+                  <span class='styleTool'>REQUESTS</span> para a API e {' '}
                   <span class='styleTool'>PLOTLY</span> para os gráficos.
                 </p>
               </div>
@@ -123,11 +122,11 @@ const Projects = () => {
                     href='https://github.com/Dnaka27/Basic_system_JavaSpring'
                     class='projectName'
                   >
-                    Java API
+                    JAVA API
                   </a>{' '}
                   é um sistema simples integrado com banco de dados H2, nele
-                  utilizei do <span class='styleTool'>Spring</span> framework,
-                  além do <span class='styleTool'>Maven</span> para gerenciar
+                  utilizei do <span class='styleTool'>SPRING</span> framework,
+                  além do <span class='styleTool'>MAVEN</span> para gerenciar
                   suas dependencias
                 </p>
               </div>
@@ -147,17 +146,17 @@ const Projects = () => {
                 <h3 class='titleProjectDescription'>Nutritionix project</h3>
                 <p class='textDescription'>
                   Projeto realizado no curso de programação em python da Udemy,
-                  o
+                  o {' '}
                   <a
                     class='projectName'
                     href='https://github.com/Dnaka27/Nutritionix_API-Google_sheets'
                     target='_blank'
                   >
-                    Nutritionix
+                    NUTRITIONIX
                   </a>
-                  . Ele consiste em uma integração de planilha
-                  <span class='styleTool'>SHEETS</span>
-                  com uma chamada de <span class='styleTool'>API</span>{' '}
+                  . Ele consiste em uma integração de planilha {' '}
+                  <span class='styleTool'>SHEETS</span> {' '}
+                  com uma chamada de API{' '}
                   utilizando <span class='styleTech stylePY'>PYTHON</span> e a
                   ferramenta <span class='styleTool'>SHEETY</span>.
                 </p>

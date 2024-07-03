@@ -26,7 +26,7 @@ const Skills = () => {
         </div>
       </div>
       <div className='EBCols'>
-        <div className={`EBCertifiesCol ${activeSection === 'EBCertifies' ? 'EBColActive' : 'EBColOff'}`}>
+        <div className={`EBCertifiesCol ${activeSection === 'EBCertifies' ? 'EBColActive' : 'EBColOff'}`} onClick={() => switchClass('EBCertifies', 'EBAcademic', 'EBCertifiesCol', 'EBAcademicCol')}>
           <div className='EBCertifiesText'>
             <ul className='EBCertifiesList'>
               <li>DIO: Amazon web services</li>
@@ -34,10 +34,11 @@ const Skills = () => {
               <li>Coursera: Google Data Analytics</li>
               <li>Udemy: Python Bootcamp</li>
               <li>Udemy: Fullstack web Bootcamp</li>
+              <li>Cubos Academy: Data Analysis</li>
             </ul>
           </div>
         </div>
-        <div className={`EBAcademicCol ${activeSection === 'EBAcademic' ? 'EBColActive' : 'EBColOff'}`}>
+        <div className={`EBAcademicCol ${activeSection === 'EBAcademic' ? 'EBColActive' : 'EBColOff'}`} onClick={() => switchClass('EBAcademic', 'EBCertifies', 'EBAcademicCol', 'EBCertifiesCol')}>
           <p className='textDescription'>
             Estudante de Gestão da tecnologia da informação (GTI) no IFSC de Florianópolis. Na parte de programação realizei lógica de programação utilizando a linguagem{' '}
             <span className='styleTech styleCPP'>C++</span> e orientação a objetos utilizando <span className='styleTech styleJV'>Java</span>. Além disso,
