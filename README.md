@@ -19,4 +19,4 @@ Below are also the technologies I used for the page
 
 ### Contact
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-78d?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](https://www.linkedin.com/in/diogo-oike-kanefuku-23639b223/) [![E-mail](https://img.shields.io/badge/-Email-e9a?style=for-the-badge&logo=microsoft-outlook&logoColor=E94D5F)](mailto:diogooikejapan@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-78d?style=for-the-badge&logo=linkedin&logoColor=0A0AAF)](https://www.linkedin.com/in/diogo-oike-kanefuku-23639b223/) [![E-mail](https://img.shields.io/badge/-Email-e9a?style=for-the-badge&logo=gmail&logoColor=E94D5F)](mailto:diogooikejapan@gmail.com)
