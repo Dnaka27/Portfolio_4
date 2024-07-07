@@ -1,68 +1,60 @@
 import './Skills.css'
 
+const softSkills = [
+  { iconClass: 'fa-solid fa-users-line', label: 'Trabalho em equipe', color: '#435ef8' },
+  { iconClass: 'fa-solid fa-scale-balanced', label: 'Inteligência emocional', color: '#435ef8' },
+  { iconClass: 'fa-solid fa-lightbulb', label: 'Criatividade', color: '#435ef8' }
+];
+
+const hardSkills = [
+  { iconClass: 'fa-brands fa-html5', label: 'HTML', color: '#ff6600' },
+  { iconClass: 'fa-brands fa-css3-alt', label: 'CSS', color: '#00d9ff' },
+  { iconClass: 'fa-brands fa-square-js', label: 'Javascript', color: '#ffd000' },
+  { iconClass: 'fa-brands fa-python', label: 'Python', color: '#0400ff' },
+  { iconClass: 'fa-brands fa-java', label: 'Java', color: '#ff0015' },
+  { iconClass: 'fa-regular fa-c', label: 'C/C++', color: '#7700ff' },
+  { iconClass: 'fa-solid fa-database', label: 'SQL', color: '#cc0088' }
+];
+
 const Skills = () => {
-
-
   return (
-    <section id='skills' class='sectionMain'>
-      <h2 class='titleSection'>HABILIDADES</h2>
-      <div class='row skillTypes'>
-        <div class='col col-lg-5 col-md-12 col-sm-12 softSkills'>
-          <h3 class='caption skillTitle'>Soft skills:</h3>
-          <div class='skillsListIcons'>
-            <div class='skillBlock'>
-              <i class='skillIcon iconSoft fa-solid fa-users-line'></i>
-              <h4>Trabalho em equipe</h4>
-            </div>
-            <div class='skillBlock'>
-              <i class='skillIcon iconSoft fa-solid fa-scale-balanced'></i>
-              <h4>Inteligência emocional</h4>
-            </div>
-            <div class='skillBlock'>
-              <i class='skillIcon iconSoft fa-solid fa-lightbulb'></i>
-              <h4>Criatividade</h4>
-            </div>
+    <section id='skills' className='sectionMain'>
+      <h2 className='titleSection'>HABILIDADES</h2>
+      <div className='row skillTypes'>
+        <div className='col col-lg-5 col-md-12 col-sm-12 softSkills'>
+          <h3 className='caption skillTitle'>Soft skills:</h3>
+          <div className='skillsListIcons'>
+            {softSkills.map((skill, index) => (
+              <div className='skillBlock' key={index}>
+                <i
+                  className={`skillIcon iconSoft ${skill.iconClass}`}
+                  style={{ backgroundColor: skill.color }}
+                ></i>
+                <h4>{skill.label}</h4>
+              </div>
+            ))}
           </div>
         </div>
-        <div class='col col-lg-2 col-md-12 col-sm-12 SkillImage'>
+        <div className='col col-lg-2 col-md-12 col-sm-12 SkillImage'>
           {/* {Imagem ícone de cérebro ou lápis} */}
         </div>
-        <div class='col col-lg-5 col-md-12 col-sm-12 hardSkills'>
-          <h3 class='caption skillTitle'>Hard skills:</h3>
-          <div class='skillsListIcons'>
-            <div class='skillLine'>
-              <i class='skillIcon iconHard fa-brands fa-html5'></i>
-              <span>HTML</span>
-            </div>
-            <div class='skillLine'>
-              <i class='skillIcon iconHard fa-brands fa-css3-alt'></i>
-              <span>CSS</span>
-            </div>
-            <div class='skillLine'>
-              <i class='skillIcon iconHard fa-brands fa-square-js'></i>
-              <span>Javascript</span>
-            </div>
-            <div class='skillLine'>
-              <i class='skillIcon iconHard fa-brands fa-python'></i>
-              <span>Python</span>
-            </div>
-            <div class='skillLine'>
-              <i class='skillIcon iconHard fa-brands fa-java'></i>
-              <span>Java</span>
-            </div>
-            <div class='skillLine'>
-              <i class='skillIcon iconHard fa-regular fa-c'></i>
-              <span>C/C++</span>
-            </div>
-            <div class='skillLine'>
-              <i class='skillIcon iconHard fa-solid fa-database'></i>
-              <span>SQL</span>
-            </div>
+        <div className='col col-lg-5 col-md-12 col-sm-12 hardSkills'>
+          <h3 className='caption skillTitle'>Hard skills:</h3>
+          <div className='skillsListIcons'>
+            {hardSkills.map((skill, index) => (
+              <div className='skillLine' key={index}>
+                <i
+                  className={`skillIcon iconHard ${skill.iconClass}`}
+                  style={{ backgroundColor: skill.color }}
+                ></i>
+                <span>{skill.label}</span>
+              </div>
+            ))}
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default Skills
+export default Skills;

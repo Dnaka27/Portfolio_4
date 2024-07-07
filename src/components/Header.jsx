@@ -1,8 +1,16 @@
+import React from 'react'
 import './Header.css'
 
 const Header = () => {
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id)
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
   return (
-    <header>
+    <header className='header' id='menu'>
       <nav className='navbar navbar-expand-lg navbar-dark'>
         Bem vindo!
         <button
@@ -19,24 +27,36 @@ const Header = () => {
         <div className='collapse navbar-collapse' id='navbarNav'>
           <ul className='navbar-nav ms-auto'>
             <li className='nav-item'>
-              <a href='#projects' className='nav-link'>
+              <button
+                className='nav-link'
+                onClick={() => scrollToSection('projects')}
+              >
                 Projetos
-              </a>
+              </button>
             </li>
             <li className='nav-item'>
-              <a href='#skills' className='nav-link'>
-                Habilidades
-              </a>
-            </li>
-            <li className='nav-item'>
-              <a href='#EB' className='nav-link'>
+              <button
+                className='nav-link'
+                onClick={() => scrollToSection('EB')}
+              >
                 Formação
-              </a>
+              </button>
             </li>
             <li className='nav-item'>
-              <a href='#contact' className='nav-link'>
+              <button
+                className='nav-link'
+                onClick={() => scrollToSection('skills')}
+              >
+                Habilidades
+              </button>
+            </li>
+            <li className='nav-item'>
+              <button
+                className='nav-link'
+                onClick={() => scrollToSection('contact')}
+              >
                 Contato
-              </a>
+              </button>
             </li>
           </ul>
         </div>
@@ -49,14 +69,14 @@ const Header = () => {
           </div>
           <div className='col aboutCol'>
             <p className='aboutText'>
-              Prazer, Diogo! Sou um estudante universitário em busca de
-              oportunidades profissionais. Sigo na área da programação e possuo
-              conhecimento em desenvolvimento{' '}
+              Prazer, Diogo! Sou um estudante universitário e sigo na área de
+              engenharia de software, atua na área com meus conhecimentos em{' '}
               <span className='styleTech stylePY'>Python</span>,{' '}
               <span className='styleTech styleJV'>Java</span> e{' '}
-              <span className='styleTech styleJS'>Javascript</span>. Sou uma
-              pessoa comprometida e criativa, sempre buscando aprender mais
-              sobre o universo da tecnologia.
+              <span className='styleTech styleJS'>Javascript</span>. Gosto de
+              criar soluções inteligentes enquanto exploro o universo da tecnologia,
+              sou uma pessoa comprometida e criativa, sempre buscando <span className="styleEnph">aprender</span>{' '}
+              algo novo.
             </p>
           </div>
         </div>

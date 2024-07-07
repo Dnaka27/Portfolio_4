@@ -90,8 +90,8 @@
 .styleJV {
   background-color: #ff0015;
 }
-.styleJS {
-  background-color: #ffd000;
+#projects .styleJS {
+  background-color: #cec028;
 }
 .stylePY {
   background-color: #3c00ff;
