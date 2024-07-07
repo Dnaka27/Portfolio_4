@@ -1,0 +1,67 @@
+/* Configurações Globais */
+body {
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* Listas */
+ul, ol {
+  list-style-type: none;
+}
+
+/* Linhas */
+.row {
+  --bs-gutter-x: 0;
+}
+
+/* Efeitos de Hover */
+.navbar-brand:hover,
+.nav-link:hover,
+.carousel:hover,
+.skillIcon:hover,
+.contactIcon:hover {
+  animation: boxShadowLight 0.3s ease forwards;
+}
+
+.styleTech:hover,
+.carouselProjectImage:hover {
+  animation: boxShadowDark 0.3s ease forwards;
+}
+
+/* Layout Principal */
+main {
+  background: radial-gradient(circle, #1b2355, #242424);
+}
+
+.sectionMain {
+  padding: 2% 6%;
+}
+
+/* Títulos */
+.titleSection {
+  display: inline;
+  text-align: left;
+  font-size: 3rem;
+  margin: 4% 2%;
+  padding: 1%;
+  color: white;
+}
+
+/* Animações */
+@keyframes boxShadowLight {
+  from {
+    box-shadow: none;
+  }
+  to {
+    box-shadow: 5px 5px 10px #b6b6b6;
+  }
+}
+
+@keyframes boxShadowDark {
+  from {
+    box-shadow: none;
+  }
+  to {
+    box-shadow: 5px 5px 10px #3b3b3b;
+  }
+}
