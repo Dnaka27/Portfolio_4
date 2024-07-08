@@ -4,6 +4,8 @@
 
 Below are also the technologies I used for the page
 
+---
+
 ### Tecnologias
 
 -   Linguagens e bibliotecas:
@@ -16,6 +18,8 @@ Below are also the technologies I used for the page
 -   Frameworks:
     -   ![Bootstrap](https://img.shields.io/badge/Bootstrap-5C2D91?style=for-the-badge&logo=bootstrap&logoColor=white)
     -   ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+
+---
 
 ### Contact
 
