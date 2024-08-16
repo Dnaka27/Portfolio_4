@@ -4,6 +4,11 @@
 
 Below are also the technologies I used for the page
 
+<<<<<<< HEAD
+=======
+---
+
+>>>>>>> c514c9a6650de453244897fcb33aa5f34b8dcdd9
 ### Tecnologias
 
 -   Linguagens e bibliotecas:
@@ -17,6 +22,14 @@ Below are also the technologies I used for the page
     -   ![Bootstrap](https://img.shields.io/badge/Bootstrap-5C2D91?style=for-the-badge&logo=bootstrap&logoColor=white)
     -   ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 
+<<<<<<< HEAD
 ### Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-78d?style=for-the-badge&logo=linkedin&logoColor=0A0AAF)](https://www.linkedin.com/in/diogo-oike-kanefuku-23639b223/) [![E-mail](https://img.shields.io/badge/-Email-e9a?style=for-the-badge&logo=gmail&logoColor=E94D5F)](mailto:diogooikejapan@gmail.com)
+=======
+---
+
+### Contact
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-78d?style=for-the-badge&logo=linkedin&logoColor=0A0AAF)](https://www.linkedin.com/in/diogo-oike-kanefuku-23639b223/) [![E-mail](https://img.shields.io/badge/-Email-e9a?style=for-the-badge&logo=gmail&logoColor=E94D5F)](mailto:diogooikejapan@gmail.com)
+>>>>>>> c514c9a6650de453244897fcb33aa5f34b8dcdd9

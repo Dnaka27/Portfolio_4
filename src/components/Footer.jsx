@@ -22,7 +22,11 @@ const Footer = () => {
   return (
     <footer id='contact' className='sectionFooter'>
       <div className="footer-content">
+<<<<<<< HEAD
         <h2 className='titleSection'>CONTACT</h2>
+=======
+        <h2 className='titleSection'>CONTATO</h2>
+>>>>>>> c514c9a6650de453244897fcb33aa5f34b8dcdd9
         <div className='contactIcons'>
           <a onClick={emailCopy}>
             <i className='contactIcon fa-solid fa-envelope'></i>
