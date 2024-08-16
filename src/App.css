@@ -79,38 +79,42 @@ main {
 }
 
 @media (max-width: 992px) {
+  header{
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    justify-content: space-between;
+  }
   body {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
   .navbar-toggler {
     padding: 1.5%;
   }
   .navbar {
-    font-size: 1rem;
-    padding: 4%;
+    font-size: 1.25rem;
+    padding: 5%;
   }
   .navbar-nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-right: auto;
+    padding: 2%;
   }
   h1 {
     padding: 8%;
-    font-size: 1.75rem;
+    font-size: 3rem;
     margin: 0;
   }
   .headerSub {
-    height: 50%;
-    margin-top: auto;
+    height: 60%;
   }
   .devFunctionCol {
-    margin: 0%;
-
+    display: flex;
   }
   .devFunction {
-    font-size: 2rem;
-    margin: 0;
+    font-size: 3.5rem;
+    margin: auto;
   }
   .aboutText,
   .textDescription {
@@ -197,19 +201,5 @@ main {
   }
   footer .titleSection {
     margin-right: 10%;
-  }
-}
-@media (min-width: 1500px) {
-  body {
-    font-size: 1.5rem;
-  }
-  h1 {
-    font-size: 5rem;
-  }
-  .titleSection {
-    font-size: 3rem;
-  }
-  .skillTitle {
-    font-size: 2rem;
   }
 }

@@ -3,7 +3,7 @@ import './Projects.css'
 const Projects = () => {
   return (
     <section id='projects' class='sectionMain'>
-      <h2 class='titleSection'>PROJETOS</h2>
+      <h2 class='titleSection'>PROJECTS</h2>
       <div id='carousel' class='carousel slide'>
         <div class='carousel-inner'>
           <div class='carousel-item'>
@@ -19,21 +19,20 @@ const Projects = () => {
               <div class='carouselDescriptionCol'>
                 <h3 class='titleProjectDescription'>TinDoG</h3>
                 <p class='textDescription'>
-                  Este é um projeto realizado no curso de programação fullstack
-                  da Udemy, um aplicativo de relacionamento para cachorros, esse
-                  é o{' '}
+                  This project was completed as part of the Fullstack
+                  Programming course on Udemy. It’s a dating app for dogs called{' '}
                   <a
                     class='projectName'
                     href='https://github.com/Dnaka27/Tindog_Udemy_Web'
                     target='_blank'
                   >
-                    TINDOG.
-                  </a>{' '}
-                  Nele utilizei de <span class='styleTech styleHTML'>HTML</span>{' '}
-                  <span class='styleTech styleCSS'>CSS</span>, assim criei um
-                  modelo estático de página, isso utilizando também do{' '}
-                  <span class='styleTool'>BOOTSTRAP</span> para responsividade e
-                  componentes
+                    TINDOG
+                  </a>
+                  . I used <span class='styleTech styleHTML'>HTML</span> and{' '}
+                  <span class='styleTech styleCSS'>CSS</span> to create a static
+                  page layout, also utilizing{' '}
+                  <span class='styleTool'>BOOTSTRAP</span> for responsiveness
+                  and components.
                 </p>
               </div>
             </div>
@@ -51,20 +50,19 @@ const Projects = () => {
               <div class='carouselDescriptionCol'>
                 <h3 class='titleProjectDescription'>To do list</h3>
                 <p class='textDescription'>
-                  Este é um projeto para organização, uma lista de tarefas
-                  simples para o dia a dia, mas que conta com filtros e uma
-                  barra de pesquisa, {' '}
+                  This is an organizational project, a simple to-do list for
+                  everyday tasks, but with filters and a search bar. It's called{' '}
                   <a
                     class='projectName'
                     href='https://github.com/Dnaka27/ToDoList_basic/'
-                    target=' _blank'
+                    target='_blank'
                   >
                     TO DO LIST
                   </a>
-                  . Nesse projeto utilizei de{' '}
-                  <span class='styleTech styleJS'>JAVASCRIPT</span> junto de{' '}
-                  <span class='styleTech styleReact'>REACT</span> e por fim
-                  estilizei com <span class='styleTech styleCSS'>CSS</span>
+                  . In this project, I used{' '}
+                  <span class='styleTech styleJS'>JAVASCRIPT</span> along with{' '}
+                  <span class='styleTech styleReact'>REACT</span> and finally
+                  styled it with <span class='styleTech styleCSS'>CSS</span>.
                 </p>
               </div>
             </div>
@@ -83,8 +81,8 @@ const Projects = () => {
               <div class='carouselDescriptionCol'>
                 <h3 class='titleProjectDescription'>Coin Viewer</h3>
                 <p class='textDescription'>
-                  Este é um projeto próprio que ainda está em andamento, uma
-                  aplicação de cotações de moedas, o {' '}
+                  This is a personal project that is still in progress, a
+                  currency quotation application called{' '}
                   <a
                     class='projectName'
                     href='https://github.com/Dnaka27/Coin_Viewer'
@@ -92,13 +90,13 @@ const Projects = () => {
                   >
                     COIN VIEWER
                   </a>
-                  . Ele é feito essencialmente com{' '}
-                  <span class='styleTech stylePY'>PYTHON</span>,{' '}
-                  <span class='styleTool'>STREAMLIT</span> para a interface,{' '}
-                  <span class='styleTool'>PANDAS</span> e {''}
-                  <span class='styleTool'>NUMPY</span> para os dados,{' '}
-                  <span class='styleTool'>REQUESTS</span> para a API e {' '}
-                  <span class='styleTool'>PLOTLY</span> para os gráficos.
+                  . It is primarily built with{' '}
+                  <span class='styleTech stylePY'>PYTHON</span>, using{' '}
+                  <span class='styleTool'>STREAMLIT</span> for the interface,{' '}
+                  <span class='styleTool'>PANDAS</span> and{' '}
+                  <span class='styleTool'>NUMPY</span> for data handling,{' '}
+                  <span class='styleTool'>REQUESTS</span> for the API, and{' '}
+                  <span class='styleTool'>PLOTLY</span> for the charts.
                 </p>
               </div>
             </div>
@@ -116,18 +114,18 @@ const Projects = () => {
               <div class='carouselDescriptionCol'>
                 <h3 class='titleProjectDescription'>Java API</h3>
                 <p class='textDescription'>
-                  Este é um projeto básico feito em{' '}
-                  <span class='styleTech styleJV'>Java</span>,{' '}
+                  This is a basic project made with{' '}
+                  <span class='styleTech styleJV'>Java</span>, called{' '}
                   <a
                     href='https://github.com/Dnaka27/Basic_system_JavaSpring'
                     class='projectName'
                   >
                     JAVA API
-                  </a>{' '}
-                  é um sistema simples integrado com banco de dados H2, nele
-                  utilizei do <span class='styleTool'>SPRING</span> framework,
-                  além do <span class='styleTool'>MAVEN</span> para gerenciar
-                  suas dependencias
+                  </a>
+                  . It’s a simple system integrated with an H2 database. I used
+                  the <span class='styleTool'>SPRING</span> framework and{' '}
+                  <span class='styleTool'>MAVEN</span> to manage its
+                  dependencies.
                 </p>
               </div>
             </div>
@@ -145,8 +143,8 @@ const Projects = () => {
               <div class='carouselDescriptionCol'>
                 <h3 class='titleProjectDescription'>Nutritionix project</h3>
                 <p class='textDescription'>
-                  Projeto realizado no curso de programação em python da Udemy,
-                  o {' '}
+                  A project completed as part of the Python programming course
+                  on Udemy, called{' '}
                   <a
                     class='projectName'
                     href='https://github.com/Dnaka27/Nutritionix_API-Google_sheets'
@@ -154,11 +152,10 @@ const Projects = () => {
                   >
                     NUTRITIONIX
                   </a>
-                  . Ele consiste em uma integração de planilha {' '}
-                  <span class='styleTool'>SHEETS</span> {' '}
-                  com uma chamada de API{' '}
-                  utilizando <span class='styleTech stylePY'>PYTHON</span> e a
-                  ferramenta <span class='styleTool'>SHEETY</span>.
+                  . It involves integrating a{' '}
+                  <span class='styleTool'>SHEETS</span> spreadsheet with an API
+                  call using <span class='styleTech stylePY'>PYTHON</span> and
+                  the <span class='styleTool'>SHEETY</span> tool.
                 </p>
               </div>
             </div>
