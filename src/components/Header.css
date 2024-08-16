@@ -27,41 +27,29 @@ header {
 }
 h1 {
   font-size: 4rem;
-<<<<<<< HEAD
   padding: 1.25rem;
-=======
-  padding: 1rem;
->>>>>>> c514c9a6650de453244897fcb33aa5f34b8dcdd9
   text-align: center;
   margin: auto;
   -webkit-text-stroke: 1px #2f29e09b;
   text-shadow: 1rem 0.5rem 1.5rem #5751ff9b;
   border-bottom: 0.25rem solid #8a87d74d;
-<<<<<<< HEAD
   transition: background-color 0.4s ease;
   border-radius: 0.5rem;
 }
 h1:hover{
   background-color: #69696979;
-=======
->>>>>>> c514c9a6650de453244897fcb33aa5f34b8dcdd9
 }
 .headerSub {
   background-color: #5f5f5f9a;
   backdrop-filter: blur(7px);
   height: 50%;
-<<<<<<< HEAD
   margin: 0;
-=======
-  margin-top: auto;
->>>>>>> c514c9a6650de453244897fcb33aa5f34b8dcdd9
 }
 
 .aboutRow {
   height: 100%;
   display: flex;
   align-items: center;
-<<<<<<< HEAD
   justify-content: space-between;
   padding: 5%;
   gap: 10%;
@@ -70,39 +58,26 @@ h1:hover{
 
 .aboutRow:hover{
   background-color: #78787849;
-=======
-  justify-content: space-around;
-  padding: 5%;
-  gap: 10%;
->>>>>>> c514c9a6650de453244897fcb33aa5f34b8dcdd9
 }
 
 .devFunctionCol {
   border: 0.25rem outset rgb(46, 101, 211);
   background-color: #0e00a93c;
   box-shadow: 1rem 0.5rem 1.5rem #5751ff9b;
-<<<<<<< HEAD
   transition: background-color 0.4s ease;
 }
 
 .devFunctionCol:hover {
   background-color: #0e00a9a0;
-=======
->>>>>>> c514c9a6650de453244897fcb33aa5f34b8dcdd9
 }
 
 .devFunction {
   color: white;
-<<<<<<< HEAD
   /* text-align: center; */
-=======
-  text-align: center;
->>>>>>> c514c9a6650de453244897fcb33aa5f34b8dcdd9
   font-size: 5rem;
   font-weight: bold;
 }
 
-<<<<<<< HEAD
 .aboutCol{
   padding: 0.5rem;
   transition: background-color 0.4s ease;
@@ -112,8 +87,6 @@ h1:hover{
   background-color: #69696979;
 }
 
-=======
->>>>>>> c514c9a6650de453244897fcb33aa5f34b8dcdd9
 .aboutText {
   text-align: justify;
 }
@@ -123,12 +96,7 @@ header .styleJV {
 }
 
 header .styleJS {
-<<<<<<< HEAD
   background-color: #ddad00;
-=======
-  background-color: #fbff00;
-  color: black;
->>>>>>> c514c9a6650de453244897fcb33aa5f34b8dcdd9
 }
 
 header .stylePY {
@@ -143,14 +111,9 @@ header .stylePY {
 }
 
 .styleEnph{
-<<<<<<< HEAD
   background-color: #fff;
   font-weight: bold;
   color: black;
-=======
-  background-color: #a01bff;
-  font-weight: bold;
->>>>>>> c514c9a6650de453244897fcb33aa5f34b8dcdd9
 }
 
 .carouselProjectImage:hover {

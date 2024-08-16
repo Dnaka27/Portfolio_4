@@ -79,7 +79,6 @@ main {
 }
 
 @media (max-width: 992px) {
-<<<<<<< HEAD
   header{
     display: flex;
     flex-direction: column; /* Alinha os itens verticalmente */
@@ -87,29 +86,19 @@ main {
   }
   body {
     font-size: 1.125rem;
-=======
-  body {
-    font-size: 1rem;
->>>>>>> c514c9a6650de453244897fcb33aa5f34b8dcdd9
   }
   .navbar-toggler {
     padding: 1.5%;
   }
   .navbar {
-<<<<<<< HEAD
     font-size: 1.25rem;
     padding: 5%;
-=======
-    font-size: 1rem;
-    padding: 4%;
->>>>>>> c514c9a6650de453244897fcb33aa5f34b8dcdd9
   }
   .navbar-nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-right: auto;
-<<<<<<< HEAD
     padding: 2%;
   }
   h1 {
@@ -126,25 +115,6 @@ main {
   .devFunction {
     font-size: 3.5rem;
     margin: auto;
-=======
-  }
-  h1 {
-    padding: 8%;
-    font-size: 1.75rem;
-    margin: 0;
-  }
-  .headerSub {
-    height: 50%;
-    margin-top: auto;
-  }
-  .devFunctionCol {
-    margin: 0%;
-
-  }
-  .devFunction {
-    font-size: 2rem;
-    margin: 0;
->>>>>>> c514c9a6650de453244897fcb33aa5f34b8dcdd9
   }
   .aboutText,
   .textDescription {
@@ -232,22 +202,4 @@ main {
   footer .titleSection {
     margin-right: 10%;
   }
-<<<<<<< HEAD
 }
-=======
-}
-@media (min-width: 1500px) {
-  body {
-    font-size: 1.5rem;
-  }
-  h1 {
-    font-size: 5rem;
-  }
-  .titleSection {
-    font-size: 3rem;
-  }
-  .skillTitle {
-    font-size: 2rem;
-  }
-}
->>>>>>> c514c9a6650de453244897fcb33aa5f34b8dcdd9

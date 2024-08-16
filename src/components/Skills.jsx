@@ -1,15 +1,9 @@
 import './Skills.css'
 
 const softSkills = [
-<<<<<<< HEAD
   { iconClass: 'fa-solid fa-users-line', label: 'Teamwork', color: '#435ef8' },
   { iconClass: 'fa-solid fa-scale-balanced', label: 'Emotional intelligence', color: '#435ef8' },
   { iconClass: 'fa-solid fa-lightbulb', label: 'Creativity', color: '#435ef8' }
-=======
-  { iconClass: 'fa-solid fa-users-line', label: 'Trabalho em equipe', color: '#435ef8' },
-  { iconClass: 'fa-solid fa-scale-balanced', label: 'Inteligência emocional', color: '#435ef8' },
-  { iconClass: 'fa-solid fa-lightbulb', label: 'Criatividade', color: '#435ef8' }
->>>>>>> c514c9a6650de453244897fcb33aa5f34b8dcdd9
 ];
 
 const hardSkills = [
