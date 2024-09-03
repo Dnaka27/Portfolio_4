@@ -9,7 +9,7 @@ const Footer = () => {
     emailFormat.select()
     document.execCommand('copy')
     document.body.removeChild(emailFormat)
-    alert('🟢 Email copiado para a área de transferência: ' + email)
+    alert('🟢 Email copied to clipboard: ' + email)
   }
 
   const scrollToSection = (id) => {
