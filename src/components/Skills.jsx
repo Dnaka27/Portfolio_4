@@ -7,8 +7,8 @@ const softSkills = [
 ];
 
 const hardSkills = [
-  { iconClass: 'fa-brands fa-html5', label: 'HTML', color: '#ff6600' },
-  { iconClass: 'fa-brands fa-css3-alt', label: 'CSS', color: '#00d9ff' },
+  { iconClass: 'fa-brands fa-html5', label: 'Html', color: '#ff6600' },
+  { iconClass: 'fa-brands fa-css3-alt', label: 'Css', color: '#00d9ff' },
   { iconClass: 'fa-brands fa-square-js', label: 'Javascript', color: '#ffd000' },
   { iconClass: 'fa-brands fa-python', label: 'Python', color: '#0400ff' },
   { iconClass: 'fa-brands fa-java', label: 'Java', color: '#ff0015' },
