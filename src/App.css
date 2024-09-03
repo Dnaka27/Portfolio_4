@@ -179,19 +179,19 @@ main {
     align-items: center;
     justify-content: space-between;
   }
+  footer .titleSection {
+    margin: 0;
+  }
   .contactIcon {
     color: #517bd6;
-    display: inline-block;
-    margin-left: 8%;
+    display: flex;
+    flex-direction: row;
     font-size: 1.25rem;
-    padding: 8%;
+    padding: 25%;
     border-radius: 0.5rem;
   }
   .contactIcon:hover {
     color: #0084ff;
-  }
-  footer .titleSection {
-    margin-right: 0%;
   }
   .arrow-up i {
     font-size: 5vw;
