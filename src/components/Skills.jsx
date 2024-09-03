@@ -19,7 +19,7 @@ const hardSkills = [
 const Skills = () => {
   return (
     <section id='skills' className='sectionMain'>
-      <h2 className='titleSection'>Skills</h2>
+      <h2 className='titleSection'>SKILLS</h2>
       <div className='row skillTypes'>
         <div className='col col-lg-5 col-md-12 col-sm-12 softSkills'>
           <h3 className='caption skillTitle'>Soft skills:</h3>

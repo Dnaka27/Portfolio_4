@@ -26,7 +26,7 @@ header {
   border-radius: 0.25rem;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 4vw;
   padding: 1.25rem;
   text-align: center;
   margin: auto;
@@ -79,6 +79,8 @@ h1:hover{
 }
 
 .aboutCol{
+  display: flex;
+  align-items: center;
   padding: 0.5rem;
   transition: background-color 0.4s ease;
   border-radius: 0.25rem;
@@ -89,6 +91,7 @@ h1:hover{
 
 .aboutText {
   text-align: justify;
+  margin: 0;
 }
 
 header .styleJV {
