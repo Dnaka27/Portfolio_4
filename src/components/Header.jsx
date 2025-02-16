@@ -65,7 +65,7 @@ const Header = () => {
       <div className='headerSub'>
         <div className='row aboutRow'>
           <div className='col devFunctionCol'>
-            <h2 className='devFunction'>DATA ENGINEER</h2>
+            <h2 className='devFunction'>DATA ENGINEER <br /> BACKEND DEVELOPER</h2>
           </div>
           <div className='col aboutCol'>
             <p className='aboutText'>
